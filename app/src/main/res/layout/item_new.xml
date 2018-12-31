@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ly_one"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="习近平两会“话中画”"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="“人民是历史的创造者，人民是真正的英雄。从乡村振兴到脱贫攻坚，从高质量发展到科技创新，从贯彻新发展理念到实战化练兵。"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/tv_media_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="央视网新闻"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018-03-25 17:05"/>
+    </LinearLayout>
+</LinearLayout>

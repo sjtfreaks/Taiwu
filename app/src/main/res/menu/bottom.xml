@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/game"
+        android:title="更新"/>
+
+    <item
+        android:id="@+id/ic_one"
+        android:icon="@drawable/attack"
+        android:title="攻略"/>
+    <item
+        android:id="@+id/ic_two"
+        android:icon="@drawable/news"
+        android:title="新闻"
+        />
+    <item
+        android:id="@+id/ic_user"
+        android:icon="@drawable/user1"
+        android:title="个人"
+        />
+</menu>
